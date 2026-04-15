@@ -481,7 +481,7 @@ const FAQ = () => {
         </div>
 
         <div className="space-y-4">
-          {faqData.map((item, idx) => (
+          {faqData.slice(0, 10).map((item, idx) => (
             <div 
               key={idx} 
               className="border-b border-stay-border last:border-0"
