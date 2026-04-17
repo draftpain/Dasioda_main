@@ -145,6 +145,7 @@ const Hero = () => {
         <img 
           src="/input_file_0.webp"
           alt="Dasioda Stay Hero"
+          referrerPolicy="no-referrer"
           className="w-full h-full object-cover brightness-75 scale-105 animate-slow-zoom"
         />
         <div className="absolute inset-0 bg-black/20" />
@@ -212,6 +213,7 @@ const Intro = () => {
             <img 
               src="/input_file_7.webp"
               alt="Autumn at Dasioda" 
+              referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
             />
           </motion.div>
@@ -233,6 +235,7 @@ const RoomCard = ({ title, sub, image, desc }: any) => (
       <img 
         src={image} 
         alt={title} 
+        referrerPolicy="no-referrer"
         className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
       />
       <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
@@ -451,6 +454,7 @@ const IndoorInfo = () => {
               <img 
                 src="/input_file_21.jpg"
                 alt="Indoor atmosphere" 
+                referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
               />
             </motion.div>
@@ -539,6 +543,7 @@ const Location = () => {
             <img 
               src="/input_file_0.webp"
               alt="Winter at Dasioda" 
+              referrerPolicy="no-referrer"
               className="w-full h-full object-cover opacity-80"
             />
             {/* Address & Navigation Controls */}
@@ -619,6 +624,7 @@ const Booking = () => {
         <img 
           src="/input_file_0.webp"
           alt="Booking BG" 
+          referrerPolicy="no-referrer"
           className="w-full h-full object-cover"
         />
       </div>
@@ -733,6 +739,7 @@ const Gallery = () => {
                 <img 
                   src={img} 
                   alt={`Gallery ${idx}`} 
+                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
